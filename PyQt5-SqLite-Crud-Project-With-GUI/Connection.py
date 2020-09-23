@@ -1,8 +1,8 @@
-import sqlite3 as lit
+import sqlite3 as sql
 
 def main():
     try:
-       db = lit.connect('TelefonDefteri.db')
+       db = sql.connect('TelefonDefteri.db')
        print("Database created")
     except:
         print("failed to create database")
